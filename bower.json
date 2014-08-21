@@ -1,0 +1,19 @@
+{
+  "name": "backbone-bundle",
+  "version": "0.0.1",
+  "homepage": "https://github.com/faheydesign/JS_B20_backbone_mean",
+  "authors": [
+    "John Fahey <faheydesign@gmail.com>"
+  ],
+  "description": "backbone config",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
