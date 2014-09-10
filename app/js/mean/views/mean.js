@@ -8,8 +8,10 @@ var FormView = Backbone.View.extend({
   events: {
     'submit' : 'meanFunction'
   },
-  meanFunction: function(){
-    this.model.meanFunction();
+  meanFunction: function(e){
+    // this.model.meanFunction();
+    console.log("submit");
+    e.preventDefault();
   },
   initialize: function() {
     this.render();
