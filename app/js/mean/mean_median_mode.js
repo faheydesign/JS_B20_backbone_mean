@@ -48,12 +48,15 @@ var mmm = {
           answer = prop;
         }else if (countArr[prop] > countArr[answer]){
           answer = prop;
-        }else{
-          answer = 'none';
         }
       }
     }
-    return answer;
+
+    // there is probably a better way of doing this :p
+    if (answer !== undefined){
+      return answer;
+    }
+    return 'none';
   }
 };
 
